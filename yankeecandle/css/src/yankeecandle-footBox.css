@@ -1,0 +1,28 @@
+/* footBox ===================================================== */  
+  
+#footBox { width:100%; height:200px; 
+  padding:10px; box-sizing:border-box;
+  background-color:#313131; }
+.logo_outer { width:140px; height:50px; 
+  margin:auto; margin-bottom:10px;
+  background-image:url("../../img/logo.png");
+  background-repeat:no-repeat;
+  background-size:contain; }
+
+.corp_area { width:340px; height:30px; margin:auto; }
+.corp_area ul { width:100%; height:auto; text-align:center;}
+.corp_area li { display:inline-block; width:auto; height:auto; margin-right:10px;padding:5px;  }
+.corp_area li a { width:auto; height:auto; 
+  font-size:0.7rem; font-weight: bold;
+  color:#fff; text-align:center;text-decoration:underline; }
+.corp_area li:last-child { margin-right:0;}
+
+.addr { width:540px; height:80px; margin:auto; }
+.addr dl { width:100%; height:auto; font-size:0.75rem; }
+.addr dt { display:block; float:left; padding-right: 5px;
+  padding-bottom: 5px; font-style:normal; color:#fff; }
+.addr dd { display:block; float:left; font-style:normal; color:#fff; margin-right:10px; 
+  margin-bottom:5px;}
+.addr dd:nth-of-type(4) { margin-right:150px; }
+.addr dd:nth-of-type(6) { margin-right:270px; }
+.addr dt:nth-of-type(7) { margin-left:150px;}

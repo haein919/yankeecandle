@@ -1,0 +1,43 @@
+/* viewBox =========================================================== */
+
+#viewBox { 
+  position:relative;
+  width:100%; height:900px; background-color:#999; }
+  
+  .view_btn { 
+    position:absolute; z-index:100;
+    top:50%; left:0; right:0; margin:auto;
+    width:1400px; height:0; }
+  .view_btn button { width:60px; height:60px;
+    font-size:2.5rem; color:#fff; 
+    text-shadow:0 0 5px rgba(0,0,0,0.7); }
+    .next_view { float:right; }
+    .prev_view { float:left; }
+  
+  .view_indicator { 
+    position:absolute; bottom:20px; z-index:50;
+    left:0; right:0; margin:auto;
+    width:260px; height:60px; }
+    .view_indicator ol { width:100%; height:auto; }
+    .view_indicator li { 
+      float:left; margin:20px 10px;
+      width:60px; height:20px;
+      border-radius:30px;
+      background-color:#fff; }
+    .view_indicator a { display:block; width:100%; height:100%; }
+    .view_indicator span { display:block; width:0; height:0; overflow:hidden; }
+
+    .view_indicator li:nth-child(1) {margin-left:20px; }
+    .view_indicator li:hover { background-color:#900; }
+    
+
+  .view_outer { position:relative;
+    width:100%; height:100%; margin:auto; background-color:#aea;
+   }
+   .view_area { width:100%; height:100%; }
+   .view_area > div { 
+     position:absolute; top:0; left:0;
+     width:inherit; height:inherit; color:#fff; }
+     .view_01 { z-index: 3; background-image:url("../../../img/main/view/view_01.jpg"); background-repeat:no-repeat; background-size:100% auto; }
+     .view_02 { z-index: 2; background-color:#E486B4; }
+     .view_03 { z-index: 1; background-color:#262661; }

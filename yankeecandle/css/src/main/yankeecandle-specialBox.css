@@ -1,0 +1,43 @@
+/* specialBox ===================================================== */
+
+#specialBox { width:100%; height:620px; }
+  
+  .special_content_outer { 
+    float:left; margin:35px 30px; margin-left:170px;
+    width:400px; height:550px; }
+    .special_title { float:left;
+      width:100%; height:50px; margin-top:15px; }
+      .special_title h2 { font-size:2rem; }
+    
+    .special_text { float:left; width:100%; height:200px;
+      margin-top:50px; }
+      .special_text p:nth-child(1) { font-family:'notoSansKR'; font-weight:600; margin-bottom:20px; }
+      .special_text p:nth-child(2) { font-family:'notoSansKR'; font-weight:300; font-style:normal; color:#777; }
+
+    .showmore_btn { float:left; width:220px; height:40px;
+      border:1px solid #555; }
+      .show_more { width:100%; height:100%; padding:10px; box-sizing:border-box; }
+      .show_more a { display:block; width:100%; height:100%; margin:auto;
+        font-size:0.8rem; text-align:center; }
+    .showmore_btn:hover { background-color:#900; color:#fff; }
+  
+  .special_img_outer { 
+    position:relative;
+    float:left; width:800px; height:550px; 
+    margin:35px 30px; background-color:#fee; }
+    .special_area { width:100%; height:100%; }
+      .special_area > div { position:absolute; top:0; left:0;
+        width:inherit; height:inherit; color:#fff;  }
+      .special_area span { display:block; width:0; height:0; overflow: hidden; }
+        .special_01 { z-index:3; background-image:url("../../../img/main/special/special.jpg"); background-repeat:no-repeat; background-size:auto 100%; }
+        .special_02 { z-index:2; background-color:#bbba90; }
+        .special_03 { z-index:1; background-color:#dd6300; }
+    .special_btn { 
+      position:absolute; z-index:50; 
+      top:50%; margin-top:225px; right:30px;
+      width:120px; height:30px; }
+    .special_btn button { width:20px; height:20px;
+      font-size:1.5rem; color:#fff; }
+      .next_view { float:right; }
+      .prev_view { float:left; }
+    .special_btn p {margin:auto; width:70px; height:30px; text-align:center; color:#fff; }

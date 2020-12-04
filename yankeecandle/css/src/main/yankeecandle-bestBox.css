@@ -1,0 +1,50 @@
+/* bestBox ========================================================== */
+
+#bestBox { 
+  position:relative;
+  padding-top:30px; box-sizing:border-box;
+  width:100%; height:700px; }
+  .title_outer { width:1260px; height:60px; 
+    margin:auto; }
+  #bestBox h2 {
+    padding-top:15px; box-sizing:border-box;
+    width:inherit; height:inherit; text-align:center; text-transform:uppercase; }
+
+  .best_btn {
+    position:absolute; z-index:50;
+    top:50%; left:0; right:0; margin:auto; margin-top:-70px;
+    width:1260px; height:0; }
+  .best_btn button { width:60px; height:80px; 
+    font-size:2.5rem; color:#fff; }
+
+  .best_img_outer { width:1260px; height:380px;
+    margin:auto; margin-top:30px; }
+    .best_img_outer span { display:block; width:0; height:0; overflow: hidden; }
+  
+    .article_01 { float:left; width:300px; height:380px; 
+      margin:0 10px; margin-left:0; 
+      background-image:url("../../../img//main/best/best_01.jpg"); background-repeat:no-repeat; background-size:100% auto;
+      transition:all 500ms ease;}
+    .article_02 { float:left; width:300px; height:380px; 
+      margin:0 10px; background-image:url("../../../img/main/best/best_02.jpg");
+      background-repeat:no-repeat; background-size:100% auto;
+      transition:all 500ms ease; }
+    .article_03 { float:left; width:300px; height:380px; 
+      margin:0 10px; background-image:url("../../../img/main/best/best_03.jpg");
+      background-repeat:no-repeat; background-size:100% auto;
+      transition:all 500ms ease; }
+    .article_04 { float:left; width:300px; height:380px; 
+      margin:0 10px; margin-right:0; 
+      background-image:url("../../../img/main/best/best_04.jpg");
+      background-repeat:no-repeat; background-size:100% auto;
+      transition:all 500ms ease; }
+    
+    .article_01:hover, .article_02:hover, .article_03:hover,
+    .article_04:hover { background-size:110% auto; }
+
+  .text_outer { width:1260px; height:200px; margin:auto; }
+  .article { float:left; width:300px; height:200px;
+    padding:30px; box-sizing:border-box;
+    margin:0 10px; background-color:#fff; text-align:center; }
+    .article_text_01 { margin-left:0; }
+    .article_text_04 { margin-right:0; }

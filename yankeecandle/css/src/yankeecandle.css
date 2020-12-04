@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* yankeecandle.css */
+/* design.css */
+
+@import url("../src/yankeecandle-wrap.css");
+@import url("../src/yankeecandle-headBox.css");
+@import url("../src/main/yankeecandle-viewBox.css");
+@import url("../src/main/yankeecandle-bestBox.css");
+@import url("../src/main/yankeecandle-specialBox.css");
+@import url("../src/main/yankeecandle-videoBox.css");
+@import url("../src/yankeecandle-snsBox.css");
+@import url("../src/yankeecandle-footBox.css");
