@@ -7,7 +7,7 @@
 @import url("../src/yankeecandle-footBox.css");
 
 /* design.css */
-#wrap { width:1600px; height:3180px; margin:auto; margin-bottom:50px; }
+#wrap { width:1600px; height:3180px; margin:auto;  }
 
 /* viewBox ============================================================ */
 #viewBox { position:relative;

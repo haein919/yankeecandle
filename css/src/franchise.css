@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* franchise.css */
+
+@import url("../src/yankeecandle-headBox.css");
+@import url("../src/yankeecandle-snsBox.css");
+@import url("../src/yankeecandle-footBox.css");
+
+/* design.css */
+#wrap { width:1600px; height:auto; margin:auto;  }
+
+/* viewBox ============================================================ */
+#viewBox { position:relative;
+  width:100%; height:900px; margin:auto; 
+  background-image:url("../../img/product/product_view.jpg");
+  background-repeat:no-repeat; background-position:-10px -200px; }
+  .viewtitle {position:absolute; bottom:200px; left:0; right:0; 
+    width:60%; height:auto; margin:auto; }
+  .viewtitle p { font-size:3.5rem; text-align:center; text-transform:uppercase;
+    font-weight:bold; color:#fff; }
+
+  .viewtext { position:absolute; bottom:100px; left:0; right:0;
+    margin:auto; width:60%; height:auto; }
+  .viewtext p { font-size:1rem; text-align:center; color:#fff; }
+
+#conBox { width:100%; height:300px; padding:50px; box-sizing: border-box; }
+#conBox > div { width:80%; height:auto; margin:auto; text-align:center; }
